@@ -129,6 +129,7 @@ const formatTimestamp = (): string => new Date().toISOString();
 
 // Mount route modules
 app.use('/leads', leadRoutes);
+app.use('/leads', bulkLeadRoutes);
 
 app.use((err: Error, _req: Request, res: Response, _next: express.NextFunction) => {
   console.error(err.stack);
