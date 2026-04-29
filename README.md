@@ -169,6 +169,13 @@ PUT /leads/bulk
 | `REDIS_HOST` | `localhost` | Redis host |
 | `REDIS_PORT` | `6379` | Redis port |
 
+
+Language: TypeScript is used for its strong typing, modern JavaScript features, and improved code maintainability, making it ideal for scalable backend development.
+
+Framework: Express.js is chosen for its minimalistic, fast, and flexible approach to building RESTful APIs, with a large ecosystem and easy integration with middleware.
+
+Database:  An in-memory Map is used for simplicity and rapid prototyping, allowing quick CRUD operations without external dependencies. For production, a database like MongoDB or PostgreSQL is recommended for persistence and scalability. document-oriented NoSQL database that scales easily and handles unstructured or semi-structured data well. It allows for rapid development, supports JSON-like documents, and is well-suited for applications where the schema may evolve over time, such as CRM systems with varying lead data fields. Additionally, MongoDB integrates smoothly with Node.js and has strong community and cloud support.
+
 Set `REDIS_HOST`/`REDIS_PORT` to enable Redis caching. If Redis is unreachable, app falls back to in-memory Map automatically.
 
 ---
