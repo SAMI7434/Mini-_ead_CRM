@@ -64,8 +64,8 @@ Server runs at `http://localhost:3000`
 
 ```
 NEW → CONTACTED → QUALIFIED → CONVERTED
-                 ↘
-                  LOST (terminal)
+    ↘             ↘          ↘
+    LOST          LOST          LOST
 ```
 
 - `CONVERTED` and `LOST` are terminal states — no further transitions allowed
