@@ -29,7 +29,7 @@ Server runs at `http://localhost:3000`
 
 ## 📊 Code Structure
 
-![API Architecture](docs/architecture.png)
+![image atl]([docs/architecture.png](https://github.com/SAMI7434/Mini-_ead_CRM/blob/master/docs/Lead%20Management%20API%20Workflow-2026-04-29-003450.png?raw=true))
 
 **Interactive version:** Open [`code-structure-2d.html`](code-structure-2d.html) in your browser → click "Open Graph" → drag/zoom to explore. Press <kbd>F11</kbd> for fullscreen.
 
@@ -54,7 +54,6 @@ Server runs at `http://localhost:3000`
 │   └── app2.js        # Compiled output
 ├── test.js            # Integration tests (20 scenarios)
 ├── seed.js            # Database seeder
-├── code-structure-2d.html  # Interactive function graph
 └── package.json
 ```
 
